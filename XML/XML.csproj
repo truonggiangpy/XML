@@ -46,19 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HopDong1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HopDong1.Designer.cs">
+      <DependentUpon>HopDong1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Khu1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Khu1.Designer.cs">
       <DependentUpon>Khu1.cs</DependentUpon>
     </Compile>
+    <Compile Include="ktx\HopDong.cs" />
+    <Compile Include="ktx\Khu.cs" />
     <Compile Include="ktx\QuanLy.cs" />
     <Compile Include="ktx\SinhVien.cs" />
+    <Compile Include="ktx\ThanNhan.cs" />
     <Compile Include="menuchinh.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="menuchinh.Designer.cs">
       <DependentUpon>menuchinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhiKTX1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhiKTX1.Designer.cs">
+      <DependentUpon>PhiKTX1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -74,10 +89,28 @@
     <Compile Include="SinhVien1.Designer.cs">
       <DependentUpon>SinhVien1.cs</DependentUpon>
     </Compile>
+    <Compile Include="ThanNhan1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThanNhan1.Designer.cs">
+      <DependentUpon>ThanNhan1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="xuly\HopDongxuly.cs" />
+    <Compile Include="xuly\Khuxuly.cs" />
     <Compile Include="xuly\QuanLyxuly.cs" />
     <Compile Include="xuly\SinhVienxuly.cs" />
+    <Compile Include="xuly\ThanNhanxuly.cs" />
+    <EmbeddedResource Include="HopDong1.resx">
+      <DependentUpon>HopDong1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Khu1.resx">
+      <DependentUpon>Khu1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="menuchinh.resx">
       <DependentUpon>menuchinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhiKTX1.resx">
+      <DependentUpon>PhiKTX1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -93,6 +126,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SinhVien1.resx">
       <DependentUpon>SinhVien1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThanNhan1.resx">
+      <DependentUpon>ThanNhan1.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

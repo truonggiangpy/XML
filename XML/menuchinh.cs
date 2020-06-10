@@ -39,5 +39,23 @@ namespace XML
             Khu1 k = new Khu1();
             k.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            HopDong1 hd = new HopDong1();
+            hd.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ThanNhan1 tn = new ThanNhan1();
+            tn.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            PhiKTX1 phiktx = new PhiKTX1();
+            phiktx.Show();
+        }
     }
 }

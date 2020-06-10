@@ -39,7 +39,7 @@ namespace XML
                 SinhVienn.MSSV1 = int.Parse(txt1.Text);
                 SinhVienn.HoTen1 = txt2.Text;
                 SinhVienn.NgaySinh1 = DateTime.Parse(txt3.Text);
-                SinhVienn.GioiTinh1 = txt4.Text; ;
+                SinhVienn.GioiTinh1 = txt4.Text; 
                 SinhVienn.CMND1 = int.Parse(txt5.Text);
                 SinhVienn.SDT1 = int.Parse(txt6.Text);
                 SinhVienn.Lop1 = txt7.Text;
@@ -59,7 +59,7 @@ namespace XML
                 SinhVienn.MSSV1 = int.Parse(txt1.Text);
                 SinhVienn.HoTen1 = txt2.Text;
                 SinhVienn.NgaySinh1 = DateTime.Parse(txt3.Text);
-                SinhVienn.GioiTinh1 = txt4.Text; ;
+                SinhVienn.GioiTinh1 = txt4.Text; 
                 SinhVienn.CMND1 = int.Parse(txt5.Text);
                 SinhVienn.SDT1 = int.Parse(txt6.Text);
                 SinhVienn.Lop1 = txt7.Text;
