@@ -128,14 +128,14 @@ namespace XML.xuly
             int sd = 0;// luu tru so dong
             try
                 {
-                            foreach (XmlNode item in ds)
-                {
-                    dgv1.Rows.Add();
-                    dgv1.Rows[sd].Cells[0].Value = item.SelectSingleNode("MaQL").InnerText;
-                    dgv1.Rows[sd].Cells[1].Value = item.SelectSingleNode("HoTen").InnerText;
-                    dgv1.Rows[sd].Cells[2].Value = item.SelectSingleNode("NgaySinh").InnerText;
-                    dgv1.Rows[sd].Cells[3].Value = item.SelectSingleNode("DiaChi").InnerText;
-                    dgv1.Rows[sd].Cells[4].Value = item.SelectSingleNode("SDT").InnerText;
+                     foreach (XmlNode item in ds)
+                        {
+                            dgv1.Rows.Add();
+                            dgv1.Rows[sd].Cells[0].Value = item.SelectSingleNode("MaQL").InnerText;
+                            dgv1.Rows[sd].Cells[1].Value = item.SelectSingleNode("HoTen").InnerText;
+                            dgv1.Rows[sd].Cells[2].Value = item.SelectSingleNode("NgaySinh").InnerText;
+                            dgv1.Rows[sd].Cells[3].Value = item.SelectSingleNode("DiaChi").InnerText;
+                            dgv1.Rows[sd].Cells[4].Value = item.SelectSingleNode("SDT").InnerText;
                     sd++;
                 }
 

@@ -57,5 +57,18 @@ namespace XML
             PhiKTX1 phiktx = new PhiKTX1();
             phiktx.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            phong1 phong = new phong1();
+            phong.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            HoaDonDienNuoc1 HoaDonDienNuoc = new HoaDonDienNuoc1();
+            HoaDonDienNuoc.Show();
+
+        }
     }
 }

@@ -35,13 +35,13 @@ namespace XML.xuly
             MaPhong.InnerText = themhd.MaPhong1.ToString();
             HopDong.AppendChild(MaPhong);
             XmlElement NgayLap = doc.CreateElement("NgayLap");
-            NgayLap.InnerText = themhd.NgayLap1.ToString();
+            NgayLap.InnerText = themhd.NgayLap1.ToString("yyyy-MM-dd");
             HopDong.AppendChild(NgayLap);
             XmlElement NgayBatDau = doc.CreateElement("NgayBatDau");
-            NgayBatDau.InnerText = themhd.NgayBatDau1.ToString();
+            NgayBatDau.InnerText = themhd.NgayBatDau1.ToString("yyyy-MM-dd");
             HopDong.AppendChild(NgayBatDau);
             XmlElement NgayKetThuc = doc.CreateElement("NgayKetThuc");
-            NgayKetThuc.InnerText = themhd.NgayKetThuc1.ToString();
+            NgayKetThuc.InnerText = themhd.NgayKetThuc1.ToString("yyyy-MM-dd");
             HopDong.AppendChild(NgayKetThuc);
 
             root.AppendChild(HopDong);

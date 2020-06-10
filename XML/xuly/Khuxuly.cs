@@ -96,7 +96,7 @@ namespace XML.xuly
                 dgv.Rows[0].Cells[1].Value = DoiTuong.InnerText;
 
                 XmlNode MaQL = khucantim.SelectSingleNode("MaQL");
-                dgv.Rows[0].Cells[1].Value = MaQL.InnerText;
+                dgv.Rows[0].Cells[2].Value = MaQL.InnerText;
 
                 XmlNode TienPhong = khucantim.SelectSingleNode("TienPhong");
                 dgv.Rows[0].Cells[3].Value = TienPhong.InnerText;
