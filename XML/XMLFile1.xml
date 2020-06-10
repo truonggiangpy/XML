@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QLKTX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BTNhom.xsd">
+  <SinhVien>
+    <MSSV>59131111</MSSV>
+    <HoTen>PHAN NHU QUYN222</HoTen>
+    <NgaySinh>15/07/1000 12:00:00 SA</NgaySinh>
+    <GioiTinh>NU</GioiTinh>
+    <CMND>221480321</CMND>
+    <SDT>363000385</SDT>
+    <Lop>59CNTT1</Lop>
+    <DiaChi>CAMLA</DiaChi>
+  </SinhVien>
+  <SinhVien>
+    <MSSV>59131112</MSSV>
+    <HoTen>NGUYEN VU CHI HUNG</HoTen>
+    <NgaySinh>1997-07-20</NgaySinh>
+    <GioiTinh>NAM</GioiTinh>
+    <CMND>221480213</CMND>
+    <SDT>0353000269</SDT>
+    <Lop>59CNTT3</Lop>
+    <DiaChi>NINH HOA,KHANH HOA</DiaChi>
+  </SinhVien>
+  <SinhVien>
+    <MSSV>59131114</MSSV>
+    <HoTen>HO THI MAI HUNG</HoTen>
+    <NgaySinh>1999-01-14</NgaySinh>
+    <GioiTinh>NU</GioiTinh>
+    <CMND>221480898</CMND>
+    <SDT>0352014189</SDT>
+    <Lop>59TP3</Lop>
+    <DiaChi>15 TRAN PHU, TUY HOA,PHU YEN</DiaChi>
+  </SinhVien>
+  <SinhVien>
+    <MSSV>59131115</MSSV>
+    <HoTen>NGUYEN TRONG NHAN</HoTen>
+    <NgaySinh>1998-01-15</NgaySinh>
+    <GioiTinh>NAM</GioiTinh>
+    <CMND>221423898</CMND>
+    <SDT>0982014189</SDT>
+    <Lop>59OTO3</Lop>
+    <DiaChi>VAN GIA, KHANH HOA</DiaChi>
+  </SinhVien>
+  <SinhVien>
+    <MSSV>59131116</MSSV>
+    <HoTen>NGUYEN BA THIEN</HoTen>
+    <NgaySinh>1999-07-20</NgaySinh>
+    <GioiTinh>NAM</GioiTinh>
+    <CMND>221423368</CMND>
+    <SDT>0982124189</SDT>
+    <Lop>59KT1</Lop>
+    <DiaChi>DNINH HOA , KHANH HOA</DiaChi>
+  </SinhVien>
+  <QuanLy>
+    <MaQL>QL001</MaQL>
+    <HoTen>NGUYEN THI THUY</HoTen>
+    <NgaySinh>1985-09-18</NgaySinh>
+    <DiaChi>145 NGUYEN KHUYEN, NHA TRANG , KHANH HOA</DiaChi>
+    <SDT>0324512355</SDT>
+  </QuanLy>
+  <QuanLy>
+    <MaQL>QL002</MaQL>
+    <HoTen>VU QUANG MINH</HoTen>
+    <NgaySinh>1982-10-23</NgaySinh>
+    <DiaChi>17 DOAN TRAN NGHIEP, NHA TRANG , KHANH HOA</DiaChi>
+    <SDT>0324123355</SDT>
+  </QuanLy>
+  <QuanLy>
+    <MaQL>QL003</MaQL>
+    <HoTen>TRIEU MINH HUNG</HoTen>
+    <NgaySinh>1989-01-10</NgaySinh>
+    <DiaChi>09 PHAM VAN DONG, NHA TRANG , KHANH HOA</DiaChi>
+    <SDT>0984512355</SDT>
+  </QuanLy>
+  <QuanLy>
+    <MaQL>QL004</MaQL>
+    <HoTen>HO THI MAI ANH</HoTen>
+    <NgaySinh>1985-09-20</NgaySinh>
+    <DiaChi>156 TRAN PHU, NHA TRANG , KHANH HOA</DiaChi>
+    <SDT>032178982</SDT>
+  </QuanLy>
+  <QuanLy>
+    <MaQL>QL005</MaQL>
+    <HoTen>NGUYEN DINH PHU</HoTen>
+    <NgaySinh>1980-10-16</NgaySinh>
+    <DiaChi>67 NGUYEN DINH CHIEU, NHA TRANG , KHANH HOA</DiaChi>
+    <SDT>0897612355</SDT>
+  </QuanLy>
+  <Khu>
+    <MaKhu>K8</MaKhu>
+    <DoiTuong>NU</DoiTuong>
+    <MaQL>QL001</MaQL>
+    <TienPhong>1750000</TienPhong>
+  </Khu>
+  <Khu>
+    <MaKhu>K3</MaKhu>
+    <DoiTuong>NAM</DoiTuong>
+    <MaQL>QL002</MaQL>
+    <TienPhong>2500000</TienPhong>
+  </Khu>
+  <Khu>
+    <MaKhu>K5</MaKhu>
+    <DoiTuong>CA 2</DoiTuong>
+    <MaQL>QL002</MaQL>
+    <TienPhong>1750000</TienPhong>
+  </Khu>
+  <Khu>
+    <MaKhu>K4</MaKhu>
+    <DoiTuong>NAM</DoiTuong>
+    <MaQL>QL003</MaQL>
+    <TienPhong>4000000</TienPhong>
+  </Khu>
+  <Khu>
+    <MaKhu>K1</MaKhu>
+    <DoiTuong>CA 2</DoiTuong>
+    <MaQL>QL006</MaQL>
+    <TienPhong>300000</TienPhong>
+  </Khu>
+  <Khu>
+    <MaKhu>K7</MaKhu>
+    <DoiTuong>NAM</DoiTuong>
+    <MaQL>QL004</MaQL>
+    <TienPhong>1500000</TienPhong>
+  </Khu>
+  <HopDong>
+    <MaHopDong>HD01</MaHopDong>
+    <MSSV>59131111</MSSV>
+    <MaPhong>415</MaPhong>
+    <NgayLap>2019-08-15</NgayLap>
+    <NgayBatDau>2019-08-20</NgayBatDau>
+    <NgayKetThuc>2020-07-20</NgayKetThuc>
+  </HopDong>
+  <HopDong>
+    <MaHopDong>HD02</MaHopDong>
+    <MSSV>59131112</MSSV>
+    <MaPhong>125</MaPhong>
+    <NgayLap>2019-08-16</NgayLap>
+    <NgayBatDau>2019-08-20</NgayBatDau>
+    <NgayKetThuc>2020-07-20</NgayKetThuc>
+  </HopDong>
+  <HopDong>
+    <MaHopDong>HD03</MaHopDong>
+    <MSSV>59131113</MSSV>
+    <MaPhong>615</MaPhong>
+    <NgayLap>2019-08-15</NgayLap>
+    <NgayBatDau>2019-08-20</NgayBatDau>
+    <NgayKetThuc>2020-07-20</NgayKetThuc>
+  </HopDong>
+  <HopDong>
+    <MaHopDong>HD04</MaHopDong>
+    <MSSV>59131114</MSSV>
+    <MaPhong>615</MaPhong>
+    <NgayLap>2019-08-15</NgayLap>
+    <NgayBatDau>2019-08-20</NgayBatDau>
+    <NgayKetThuc>2020-07-20</NgayKetThuc>
+  </HopDong>
+  <HopDong>
+    <MaHopDong>HD05</MaHopDong>
+    <MSSV>59131115</MSSV>
+    <MaPhong>130</MaPhong>
+    <NgayLap>2019-08-17</NgayLap>
+    <NgayBatDau>2019-08-20</NgayBatDau>
+    <NgayKetThuc>2020-07-20</NgayKetThuc>
+  </HopDong>
+  <HopDong>
+    <MaHopDong>HD06</MaHopDong>
+    <MSSV>59131116</MSSV>
+    <MaPhong>130</MaPhong>
+    <NgayLap>2019-08-19</NgayLap>
+    <NgayBatDau>2019-08-20</NgayBatDau>
+    <NgayKetThuc>2020-07-20</NgayKetThuc>
+  </HopDong>
+  <ThanNhan>
+    <MSSV>59131111</MSSV>
+    <HoTen>NGUYEN THI THANH MAI</HoTen>
+    <MoiQuanHe>ME</MoiQuanHe>
+    <DiaChi>CAM LAM , CAM RANH , KHANH HOA</DiaChi>
+    <SDT>0382011119</SDT>
+  </ThanNhan>
+  <ThanNhan>
+    <MSSV>59131112</MSSV>
+    <HoTen>NGUYEN THI HONG HANH</HoTen>
+    <MoiQuanHe>ME</MoiQuanHe>
+    <DiaChi>NINH HOA , KHANH HOA</DiaChi>
+    <SDT>0392781119</SDT>
+  </ThanNhan>
+  <ThanNhan>
+    <MSSV>59131113</MSSV>
+    <HoTen>PHAN BA TRUONG</HoTen>
+    <MoiQuanHe>BA</MoiQuanHe>
+    <DiaChi>DONG HOA,PHU YEN</DiaChi>
+    <SDT>0982034569</SDT>
+  </ThanNhan>
+  <ThanNhan>
+    <MSSV>59131114</MSSV>
+    <HoTen>HO PHU TRONG</HoTen>
+    <MoiQuanHe>BA</MoiQuanHe>
+    <DiaChi>15 TRAN PHU, TUY HOA,PHU YEN</DiaChi>
+    <SDT>0945080119</SDT>
+  </ThanNhan>
+  <ThanNhan>
+    <MSSV>59131115</MSSV>
+    <HoTen>NGUYEN TRONG PHUC</HoTen>
+    <MoiQuanHe>ME</MoiQuanHe>
+    <DiaChi>VAN GIA, KHANH HOA</DiaChi>
+    <SDT>0982011119</SDT>
+  </ThanNhan>
+  <ThanNhan>
+    <MSSV>59131116</MSSV>
+    <HoTen>NGUYEN THI NGOC MAI</HoTen>
+    <MoiQuanHe>ME</MoiQuanHe>
+    <DiaChi>NINH HOA , KHANH HOA</DiaChi>
+    <SDT>0324511119</SDT>
+  </ThanNhan>
+  <PhiKTX>
+    <MaBienLai>BL001</MaBienLai>
+    <MSSV>59131111</MSSV>
+    <MaPhong>415</MaPhong>
+    <NamHoc>2019</NamHoc>
+    <NgayThu>2019-08-20</NgayThu>
+  </PhiKTX>
+  <PhiKTX>
+    <MaBienLai>BL002</MaBienLai>
+    <MSSV>59131112</MSSV>
+    <MaPhong>125</MaPhong>
+    <NamHoc>2019</NamHoc>
+    <NgayThu>2019-08-21</NgayThu>
+  </PhiKTX>
+  <PhiKTX>
+    <MaBienLai>BL003</MaBienLai>
+    <MSSV>59131113</MSSV>
+    <MaPhong>615</MaPhong>
+    <NamHoc>2019</NamHoc>
+    <NgayThu>2019-08-20</NgayThu>
+  </PhiKTX>
+  <PhiKTX>
+    <MaBienLai>BL004</MaBienLai>
+    <MSSV>59131114</MSSV>
+    <MaPhong>135</MaPhong>
+    <NamHoc>2019</NamHoc>
+    <NgayThu>2019-08-18</NgayThu>
+  </PhiKTX>
+  <PhiKTX>
+    <MaBienLai>BL005</MaBienLai>
+    <MSSV>59131115</MSSV>
+    <MaPhong>130</MaPhong>
+    <NamHoc>2019</NamHoc>
+    <NgayThu>2019-08-18</NgayThu>
+  </PhiKTX>
+  <PhiKTX>
+    <MaBienLai>BL006</MaBienLai>
+    <MSSV>59131116</MSSV>
+    <MaPhong>130</MaPhong>
+    <NamHoc>2019</NamHoc>
+    <NgayThu>2019-08-20</NgayThu>
+  </PhiKTX>
+  <Phong>
+    <MaPhong>123</MaPhong>
+    <TinhTrangPhong>TOT</TinhTrangPhong>
+    <SoLuongToiDa>8</SoLuongToiDa>
+    <MaKhu>K8</MaKhu>
+  </Phong>
+  <Phong>
+    <MaPhong>615</MaPhong>
+    <TinhTrangPhong>TOT</TinhTrangPhong>
+    <SoLuongToiDa>8</SoLuongToiDa>
+    <MaKhu>K8</MaKhu>
+  </Phong>
+  <Phong>
+    <MaPhong>125</MaPhong>
+    <TinhTrangPhong>BT</TinhTrangPhong>
+    <SoLuongToiDa>6</SoLuongToiDa>
+    <MaKhu>K3</MaKhu>
+  </Phong>
+  <Phong>
+    <MaPhong>135</MaPhong>
+    <TinhTrangPhong>KHONG ON</TinhTrangPhong>
+    <SoLuongToiDa>4</SoLuongToiDa>
+    <MaKhu>K4</MaKhu>
+  </Phong>
+  <Phong>
+    <MaPhong>415</MaPhong>
+    <TinhTrangPhong>BT</TinhTrangPhong>
+    <SoLuongToiDa>8</SoLuongToiDa>
+    <MaKhu>K5</MaKhu>
+  </Phong>
+  <Phong>
+    <MaPhong>310</MaPhong>
+    <TinhTrangPhong>TOT</TinhTrangPhong>
+    <SoLuongToiDa>8</SoLuongToiDa>
+    <MaKhu>K7</MaKhu>
+  </Phong>
+  <Phong>
+    <MaPhong>130</MaPhong>
+    <TinhTrangPhong>TOT</TinhTrangPhong>
+    <SoLuongToiDa>2</SoLuongToiDa>
+    <MaKhu>K1</MaKhu>
+  </Phong>
+  <HoaDonDienNuoc>
+    <MaHD>HD001</MaHD>
+    <MaQL>QL001</MaQL>
+    <MaPhong>615</MaPhong>
+    <NgayLap>2019-08-20</NgayLap>
+    <ChiSoDienDau>0</ChiSoDienDau>
+    <ChiSoDienCuoi>30</ChiSoDienCuoi>
+    <ChiSoNuocDau>0</ChiSoNuocDau>
+    <ChiSoNuocCuoi>200</ChiSoNuocCuoi>
+    <DonGiaDien>1500</DonGiaDien>
+    <DonGiaNuoc>3000</DonGiaNuoc>
+  </HoaDonDienNuoc>
+  <HoaDonDienNuoc>
+    <MaHD>HD002</MaHD>
+    <MaQL>QL002</MaQL>
+    <MaPhong>125</MaPhong>
+    <NgayLap>2019-09-20</NgayLap>
+    <ChiSoDienDau>16</ChiSoDienDau>
+    <ChiSoDienCuoi>60</ChiSoDienCuoi>
+    <ChiSoNuocDau>100</ChiSoNuocDau>
+    <ChiSoNuocCuoi>400</ChiSoNuocCuoi>
+    <DonGiaDien>1500</DonGiaDien>
+    <DonGiaNuoc>3000</DonGiaNuoc>
+  </HoaDonDienNuoc>
+  <HoaDonDienNuoc>
+    <MaHD>HD003</MaHD>
+    <MaQL>QL003</MaQL>
+    <MaPhong>135</MaPhong>
+    <NgayLap>2019-10-20</NgayLap>
+    <ChiSoDienDau>36</ChiSoDienDau>
+    <ChiSoDienCuoi>70</ChiSoDienCuoi>
+    <ChiSoNuocDau>120</ChiSoNuocDau>
+    <ChiSoNuocCuoi>360</ChiSoNuocCuoi>
+    <DonGiaDien>1500</DonGiaDien>
+    <DonGiaNuoc>3000</DonGiaNuoc>
+  </HoaDonDienNuoc>
+  <HoaDonDienNuoc>
+    <MaHD>HD004</MaHD>
+    <MaQL>QL004</MaQL>
+    <MaPhong>123</MaPhong>
+    <NgayLap>2019-08-20</NgayLap>
+    <ChiSoDienDau>49</ChiSoDienDau>
+    <ChiSoDienCuoi>90</ChiSoDienCuoi>
+    <ChiSoNuocDau>150</ChiSoNuocDau>
+    <ChiSoNuocCuoi>550</ChiSoNuocCuoi>
+    <DonGiaDien>1500</DonGiaDien>
+    <DonGiaNuoc>3000</DonGiaNuoc>
+  </HoaDonDienNuoc>
+  <HoaDonDienNuoc>
+    <MaHD>HD005</MaHD>
+    <MaQL>QL005</MaQL>
+    <MaPhong>310</MaPhong>
+    <NgayLap>2019-07-20</NgayLap>
+    <ChiSoDienDau>55</ChiSoDienDau>
+    <ChiSoDienCuoi>102</ChiSoDienCuoi>
+    <ChiSoNuocDau>200</ChiSoNuocDau>
+    <ChiSoNuocCuoi>670</ChiSoNuocCuoi>
+    <DonGiaDien>1500</DonGiaDien>
+    <DonGiaNuoc>3000</DonGiaNuoc>
+  </HoaDonDienNuoc>
+  <HoaDonDienNuoc>
+    <MaHD>HD006</MaHD>
+    <MaQL>QL006</MaQL>
+    <MaPhong>130</MaPhong>
+    <NgayLap>2019-10-20</NgayLap>
+    <ChiSoDienDau>43</ChiSoDienDau>
+    <ChiSoDienCuoi>85</ChiSoDienCuoi>
+    <ChiSoNuocDau>150</ChiSoNuocDau>
+    <ChiSoNuocCuoi>870</ChiSoNuocCuoi>
+    <DonGiaDien>1500</DonGiaDien>
+    <DonGiaNuoc>3000</DonGiaNuoc>
+  </HoaDonDienNuoc>
+  <SinhVien>
+    <MSSV>59131113</MSSV>
+    <HoTen>PHAN NHU QUYN222</HoTen>
+    <NgaySinh>15/07/1000 12:00:00 SA</NgaySinh>
+    <GioiTinh>NU</GioiTinh>
+    <CMND>221480321</CMND>
+    <SDT>363000385</SDT>
+    <Lop>59CNTT1</Lop>
+    <DiaChi>CAMLAM,CAMRANH,KHANH HOA</DiaChi>
+  </SinhVien>
+</QLKTX>
