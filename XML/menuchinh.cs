@@ -25,13 +25,19 @@ namespace XML
 
         private void button2_Click(object sender, EventArgs e)
         {
-            QuanLy ql = new QuanLy();
+            QuanLy1 ql = new QuanLy1();
             ql.Show();
         }
 
         private void menuchinh_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Khu1 k = new Khu1();
+            k.Show();
         }
     }
 }

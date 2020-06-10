@@ -13,7 +13,7 @@ namespace XML.xuly
     {
         XmlDocument doc = new XmlDocument();
         XmlElement root;
-        string fileName = @"E:\XML\XML\XML\XMLFile1.xml";
+        string fileName = "xmlsinhvien.xml";
         public SinhVienxuly()
         {
             doc.Load(fileName);

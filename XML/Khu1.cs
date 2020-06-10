@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace XML
 {
-    public partial class QuanLy : Form
+    public partial class Khu1 : Form
     {
-        public QuanLy()
+        public Khu1()
         {
             InitializeComponent();
         }

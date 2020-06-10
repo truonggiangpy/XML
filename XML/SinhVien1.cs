@@ -23,7 +23,7 @@ namespace XML
 
         private void SinhVien_Load(object sender, EventArgs e)
         {
-
+            SinhVienxyly.hienthi(dataGridView1);
         }
 
         private void btncapnhap_Click(object sender, EventArgs e)

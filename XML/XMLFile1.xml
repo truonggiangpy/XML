@@ -1,26 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <QLKTX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BTNhom.xsd">
   <SinhVien>
-    <MSSV>59131111</MSSV>
-    <HoTen>PHAN NHU QUYN222</HoTen>
-    <NgaySinh>15/07/1000 12:00:00 SA</NgaySinh>
-    <GioiTinh>NU</GioiTinh>
-    <CMND>221480321</CMND>
-    <SDT>363000385</SDT>
-    <Lop>59CNTT1</Lop>
-    <DiaChi>CAMLA</DiaChi>
-  </SinhVien>
-  <SinhVien>
-    <MSSV>59131112</MSSV>
-    <HoTen>NGUYEN VU CHI HUNG</HoTen>
-    <NgaySinh>1997-07-20</NgaySinh>
-    <GioiTinh>NAM</GioiTinh>
-    <CMND>221480213</CMND>
-    <SDT>0353000269</SDT>
-    <Lop>59CNTT3</Lop>
-    <DiaChi>NINH HOA,KHANH HOA</DiaChi>
-  </SinhVien>
-  <SinhVien>
     <MSSV>59131114</MSSV>
     <HoTen>HO THI MAI HUNG</HoTen>
     <NgaySinh>1999-01-14</NgaySinh>
@@ -376,5 +356,15 @@
     <SDT>363000385</SDT>
     <Lop>59CNTT1</Lop>
     <DiaChi>CAMLAM,CAMRANH,KHANH HOA</DiaChi>
+  </SinhVien>
+  <SinhVien>
+    <MSSV>591222</MSSV>
+    <HoTen>HO THI MAI HUNG</HoTen>
+    <NgaySinh>14/01/1999 12:00:00 SA</NgaySinh>
+    <GioiTinh>NU</GioiTinh>
+    <CMND>221480898</CMND>
+    <SDT>352014189</SDT>
+    <Lop>59TP3</Lop>
+    <DiaChi>15 TRAN PHU, TUY HOA,PHU YEN</DiaChi>
   </SinhVien>
 </QLKTX>
