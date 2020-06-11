@@ -34,7 +34,7 @@ namespace XML.xuly
             QuanLy.AppendChild(HoTen);
             
             XmlElement NgaySinh = doc.CreateElement("NgaySinh");
-            NgaySinh.InnerText = themql.NgaySinh1.ToString();
+            NgaySinh.InnerText = themql.NgaySinh1.ToShortDateString();
             QuanLy.AppendChild(NgaySinh);
             
             XmlElement DiaChi = doc.CreateElement("DiaChi");
@@ -126,21 +126,18 @@ namespace XML.xuly
             dgv1.ColumnCount = 5;
             XmlNodeList ds = root.SelectNodes("QuanLy");
             int sd = 0;// luu tru so dong
-            try
+
+                foreach (XmlNode item in ds)
                 {
-                     foreach (XmlNode item in ds)
-                        {
-                            dgv1.Rows.Add();
-                            dgv1.Rows[sd].Cells[0].Value = item.SelectSingleNode("MaQL").InnerText;
-                            dgv1.Rows[sd].Cells[1].Value = item.SelectSingleNode("HoTen").InnerText;
-                            dgv1.Rows[sd].Cells[2].Value = item.SelectSingleNode("NgaySinh").InnerText;
-                            dgv1.Rows[sd].Cells[3].Value = item.SelectSingleNode("DiaChi").InnerText;
-                            dgv1.Rows[sd].Cells[4].Value = item.SelectSingleNode("SDT").InnerText;
+                    dgv1.Rows.Add();
+                    dgv1.Rows[sd].Cells[0].Value = item.SelectSingleNode("MaQL").InnerText;
+                    dgv1.Rows[sd].Cells[1].Value = item.SelectSingleNode("HoTen").InnerText;
+                    dgv1.Rows[sd].Cells[2].Value = item.SelectSingleNode("NgaySinh").InnerText;
+                    dgv1.Rows[sd].Cells[3].Value = item.SelectSingleNode("DiaChi").InnerText;
+                    dgv1.Rows[sd].Cells[4].Value = item.SelectSingleNode("SDT").InnerText;
                     sd++;
                 }
 
-            }
-            catch { }
 
         }
     }
